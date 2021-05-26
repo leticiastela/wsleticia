@@ -1,0 +1,26 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoComposta {
+	public static void main(String[] args) {
+		String disciplina = JOptionPane.showInputDialog("Informe a Disciplina:").toUpperCase();
+		float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Informe a primeira nota:"));
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Informe a segunda nota:"));
+		float media = (nota1 + nota2)/2;
+		System.out.println("Sua média na Disciplina " + disciplina + " é: " + media);
+		if(media >= 6)
+		{
+			System.out.println("Parabéns, você foi aprovado!!");
+		}
+		else if(media < 4)
+		{
+			System.out.println("Você foi reprovado :( ");
+		}
+		else if (media <6 && media >=4)
+		{
+			System.out.println("Você tem chances no exame!");
+		}
+	}
+
+}

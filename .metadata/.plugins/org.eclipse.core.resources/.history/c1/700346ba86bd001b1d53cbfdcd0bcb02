@@ -1,0 +1,27 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2 {
+	public static void main(String[] args) {
+		short qtdDiaria = Short.parseShort(JOptionPane.showInputDialog("Informe a quantidade de diárias:"));
+		float valorDiaria = Float.parseFloat(JOptionPane.showInputDialog("Informe o valor da diária:"));
+		float valorPorcentagem = 0;
+		float valorTotal = 0;
+		if (qtdDiaria < 5) {
+		 valorPorcentagem =	valorDiaria * (float)0.10;
+		 valorTotal = (valorDiaria * qtdDiaria) + valorPorcentagem;
+		}
+		else if (qtdDiaria >= 5 && qtdDiaria <=10) {
+			 valorPorcentagem =	valorDiaria * (float)0.8;
+			 valorTotal = (valorDiaria * qtdDiaria) + valorPorcentagem;
+		}
+		else
+		{
+			 valorPorcentagem =	valorDiaria * (float)0.05;
+			 valorTotal = (valorDiaria * qtdDiaria) + valorPorcentagem;
+		}
+		System.out.println("O valor total é:" + valorTotal);
+	}
+
+}

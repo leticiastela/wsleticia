@@ -1,0 +1,16 @@
+package decisao;
+
+import java.util.Objects;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Informe o valor 1:"));
+		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Informe o valor 2:"));
+		int valor3 = Integer.parseInt(JOptionPane.showInputDialog("Informe o valor 3:"));
+		
+		
+	}
+
+}
