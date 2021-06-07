@@ -18,10 +18,6 @@ public class Curso {
 	private double valor;
 	private int cargaHoraria;
 	
-	
-	
-	
-	@Override
 	public String toString() {
 		return "Curso [nome=" + nome + ", titulacao=" + titulacao + ", valor=" + valor + ", cargaHoraria="
 				+ cargaHoraria + "]";

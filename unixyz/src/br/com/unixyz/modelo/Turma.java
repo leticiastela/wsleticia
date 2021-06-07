@@ -26,6 +26,7 @@ public class Turma {
 		return "Turma [sigla=" + sigla + ", periodo=" + periodo + ", sala=" + sala + ", professor=" + professor
 				+ ", curso=" + curso + ", aluno=" + aluno + "]";
 	}
+	
 	public String getSigla() {
 		return sigla;
 	}

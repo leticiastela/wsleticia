@@ -15,9 +15,12 @@ public class Professor {
 		this.endereco = endereco;
 	}
 	
+	private String nomeHorario;
+	private String formacao;
+	private int cargaHoraria;
+	private double valorHora;
+	private Endereco endereco;
 	
-	
-	@Override
 	public String toString() {
 		return "Professor [nomeHorario=" + nomeHorario + ", formacao=" + formacao + ", cargaHoraria=" + cargaHoraria
 				+ ", valorHora=" + valorHora + ", endereco=" + endereco + "]";
@@ -53,11 +56,7 @@ public class Professor {
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
-	private String nomeHorario;
-	private String formacao;
-	private int cargaHoraria;
-	private double valorHora;
-	private Endereco endereco;
+	
 	
 	
 	

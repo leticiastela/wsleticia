@@ -2,7 +2,8 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Objects"/>
 <fullyQualifiedTypeName name="br.com.caicaielevador.modelo.Elevador"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.lojaregina.modelo.Cliente"/>
 <fullyQualifiedTypeName name="br.com.lojaregina.modelo.Produto"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="util.Magica"/>
 </qualifiedTypeNameHistroy>
