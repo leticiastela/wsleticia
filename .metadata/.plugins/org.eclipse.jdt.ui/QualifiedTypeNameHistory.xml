@@ -4,6 +4,10 @@
 <fullyQualifiedTypeName name="br.com.caicaielevador.modelo.Elevador"/>
 <fullyQualifiedTypeName name="br.com.lojaregina.modelo.Cliente"/>
 <fullyQualifiedTypeName name="br.com.lojaregina.modelo.Produto"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="util.Magica"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="excecao.MinhaExcecao"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
